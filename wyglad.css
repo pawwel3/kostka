@@ -1,0 +1,82 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/forest-931706_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.wrap {
+    position: relative;
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(253, 246, 246, 0.2);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #042001;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    font-size: 50px;
+    padding: 10px 20px;
+    border: 3px solid #042001;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.719);
+    color: #042001;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.25);
+    outline-color: transparent;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: #073a01;
+    border: 3px solid #073a01;
+}
+
+.cube {
+	float:left;
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+border: 5px solid black;
+border-radius: 30px;
+}
+.kropka{
+	position:relative;
+	float:left;
+	font-size:50%;
+	width:4vw;
+	height:4vw;
+	text-align:center;
+	padding:5px;
+	margin:8px;
+	font-size:72px;
+}
